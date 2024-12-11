@@ -1,4 +1,3 @@
-import React from 'react';
 import { VideoIcon } from 'lucide-react';
 import { ThemeToggle } from '../ui/ThemeToggle';
 
@@ -9,7 +8,7 @@ export function Header() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <VideoIcon className="h-8 w-8 text-violet-600 dark:text-violet-400" />
-            <span className="ml-2 text-xl font-semibold text-gray-900 dark:text-white">Video Transcriber</span>
+            <span className="ml-2 text-xl font-semibold text-gray-900 dark:text-white">VidScribe</span>
           </div>
           <div className="flex items-center space-x-4">
             <nav className="flex space-x-4">
